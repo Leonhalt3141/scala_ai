@@ -13,7 +13,7 @@ class KochApp extends CurveApp {
   override def draw(): Unit = {
     val c = new Koch(g)
     c.move(50, 300)
-    c.draw(5, 500, 0)
+    c.draw(6, 500, 0)
   }
 }
 
