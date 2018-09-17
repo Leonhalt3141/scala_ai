@@ -19,7 +19,7 @@ class TreeApp extends CurveApp {
 
 class Tree (g: GraphicsContext) extends  Curve(g) {
 
-  def save() = {
+  def save(): (Double, Double) = {
     (lastX, lastY)
   }
 

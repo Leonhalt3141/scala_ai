@@ -11,7 +11,8 @@ import javafx.scene.effect._
 import javafx.scene.control._
 import javafx.scene.input.MouseEvent
 import javafx.geometry._
-import  javafx.event.EventHandler
+import javafx.event.EventHandler
+
 
 object CurveMain {
   def main(args: Array[String]): Unit = {
